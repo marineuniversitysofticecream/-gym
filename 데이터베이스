@@ -1,0 +1,7 @@
+SoftWare> db.numbers.insertMany([
+... {lincensePlate:"45오2457", isDisabled:true},
+... {lincensePlate:"12노1234", isDisabled:false},
+... {lincensePlate:"34가4567", isDisabled:false},
+... {lincensePlate:"56나7891", isDisabled:true},
+... {lincensePlate:"78다9123", isDisabled:false},
+... {lincensePlate:"19거4648", isDisabled:false}])
