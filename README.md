@@ -1,2 +1,2 @@
-#disabled-person parking
-장애인 주차구역 알림
+#gym application
+헬스장 어플리케이션
