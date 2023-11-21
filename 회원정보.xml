@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-47dp">
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="안녕하세요, 사용자 이름!"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textRemainingDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textName"
+            android:layout_marginTop="31dp"
+            android:text="헬스장 이용 남은 일수: 30일"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textRemainingDays"
+            android:layout_marginTop="69dp"
+            android:onClick="openEquipmentInfoActivity"
+            android:text="기구 사용법"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEquipment1"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_below="@id/buttonEquipment"
+            android:layout_marginTop="13dp"
+            android:onClick="openEquipmentInfoActivity"
+            android:src="@drawable/community"
+            android:contentDescription="기구사용법 이미지 버튼"/>
+
+        <Button
+            android:id="@+id/buttonCommunity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonEquipment"
+            android:layout_marginTop="172dp"
+            android:onClick="openCommunityActivity"
+            android:text="커뮤니티"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtoncommunity"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_below="@id/buttonEquipment"
+            android:layout_marginTop="236dp"
+            android:onClick="openEquipmentInfoActivity"
+            android:src="@drawable/gym_equipment_image"
+            android:contentDescription="커뮤니티 이미지 버튼"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
