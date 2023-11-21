@@ -1,2 +1,2 @@
-#disabled-person parking
-장애인 주차구역 알림
+#gym app
+체육관 앱
