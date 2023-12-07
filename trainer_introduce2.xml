@@ -1,0 +1,149 @@
+<!-- activity_trainer.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 헬스장 이름 -->
+        <TextView
+            android:id="@+id/textGymName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="퍼스트 짐"
+            android:textSize="28sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B3B3B3"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Trainer 1 -->
+        <ImageView
+            android:id="@+id/imageTrainer1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/trainer4"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="크리스 범스테드"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textTrainerPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: 4,000,000원/회 당"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerDescription1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요! 제 이름은 크리스 범스테드입니다. 클래식 피즈크 종목에서 총 4번 우승으로 포디움을 달성했습니다. 관심있으시면 연락주세요!"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B3B3B3"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Trainer 2 (Repeat similar structure) -->
+        <ImageView
+            android:id="@+id/imageTrainer2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/trainer5"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="장성엽"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textTrainerPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: 800,000원/회 당"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerDescription2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요! 저는 장성엽입니다. 여러 해 동안 수많은 고객들에게 다양한 트레이닝 서비스를 제공했습니다. 건강한 라이프스타일을 위해 함께 운동해봐요!"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B3B3B3"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Trainer 3 (Repeat similar structure) -->
+        <ImageView
+            android:id="@+id/imageTrainer3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/trainer6"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="김강민"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textTrainerPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가격: 600,000원/회 당"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textTrainerDescription3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요! 김강민입니다. 신체적인 목표에 따라 맞춤형 트레이닝을 제공하고 있습니다. 함께 목표를 달성해봐요! 언제든지 상담 가능합니다."
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
